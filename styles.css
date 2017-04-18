@@ -48,29 +48,33 @@ button {
 }
 
 .user-profile {
-  padding-top: 25px;
+  padding-top: 32px;
   border-bottom: 2px solid #282F41;
 }
 
 .user-picture {
   display: block;
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   border-radius: 50px;
   margin: 0 auto;
 }
 
 .profile-dropdown {
-  width: 70%;
-  padding-right: 15px;
-  margin: 20px auto;
+  width: 58%;
+  padding-right: 12px;
+  margin: 18px auto 26px auto;
   color: #A0ACC1;
   text-decoration: none;
   background: url('images/down-arrow.svg') right/10px no-repeat;
 }
 
+.profile-dropdown:hover {
+  color: #FFF;
+}
+
 .nav-link-section-title {
-  padding-left: 15px;
+  padding-left: 20px;
 }
 
 .nav-link-main a,
@@ -79,7 +83,7 @@ button {
   display: block;
   text-decoration: none;
   color: #A0ACC1;
-  padding: 10px 0 10px 50px;
+  padding: 12px 0 12px 55px;
 }
 
 .nav-link-main a:hover,
@@ -91,73 +95,79 @@ button {
 .nav-link-main,
 .nav-link-admin,
 .nav-categories {
-  margin: 15px 0;
+  padding: 25px 0;
+}
+
+.nav-link-main,
+.nav-link-admin {
   border-bottom: 2px solid #282F41;
 }
 
+
 .home {
-  background: url('images/home.svg') 15px/20px no-repeat;
+  background: url('images/home.svg') 20px/20px no-repeat;
 }
 
 .jobs {
-  background: url('images/jobs.svg') 15px/20px no-repeat;
+  background: url('images/jobs.svg') 20px/20px no-repeat;
 }
 
 .resumes {
-  background: url('images/resumes.svg') 15px/20px no-repeat;
+  background: url('images/resumes.svg') 20px/20px no-repeat;
 }
 
 .tasks {
-  background: url('images/tasks.svg') 15px/20px no-repeat;
+  background: url('images/tasks.svg') 20px/20px no-repeat;
 }
 
 .side-calendar {
-  background: url('images/calendar.svg') 15px/20px no-repeat;
+  background: url('images/calendar.svg') 20px/20px no-repeat;
 }
 
 .users {
-  background: url('images/users.svg') 15px/20px no-repeat;
+  background: url('images/users.svg') 20px/20px no-repeat;
 }
 
 .locations {
-  background: url('images/map-pin.svg') 15px/20px no-repeat;
+  background: url('images/map-pin.svg') 20px/20px no-repeat;
 }
 
 .workflows {
-  background: url('images/workflows.svg') 15px/20px no-repeat;
+  background: url('images/workflows.svg') 20px/20px no-repeat;
 }
 
 .job-boards {
-  background: url('images/job-boards.svg') 15px/20px no-repeat;
+  background: url('images/job-boards.svg') 20px/20px no-repeat;
   background-color: #2A3242;
   color: #FFF;
   border-left: 2px solid #34ACF3;
 }
 
 .nav-social {
-  background: url('images/social.svg') 15px/20px no-repeat;
+  background: url('images/social.svg') 20px/20px no-repeat;
 }
 
 .admin {
-  background: url('images/square-yellow-checked.svg') 15px/15px no-repeat;
+  background: url('images/square-yellow-checked.svg') 20px/15px no-repeat;
 }
 
 .design {
-  background: url('images/square-blue.svg') 15px/15px no-repeat;
+  background: url('images/square-blue.svg') 20px/15px no-repeat;
 }
 
 .executive {
-  background: url('images/square-red.svg') 15px/15px no-repeat;
+  background: url('images/square-red.svg') 20px/15px no-repeat;
 }
 
 .hr {
-  background: url('images/square-green.svg') 15px/15px no-repeat;
+  background: url('images/square-green.svg') 20px/15px no-repeat;
 }
 
 .top-nav {
   display: flex;
   flex-direction: row;
   height: 40px;
+  margin-bottom: 35px;
 }
 
 .search-bar {
@@ -207,7 +217,7 @@ button {
   padding: 9px 15px;
   border: 1px solid #E3E3E5;
   border-radius: 18px;
-  margin: 10px auto;
+  margin: 30px auto 16px auto;
   background-color: #FFF;
   text-align: center;
   vertical-align: middle;
@@ -220,8 +230,7 @@ button {
 .status {
   width: 80px;
   padding: 9px 15px 9px 24px;
-  margin-top: 1px;
-  margin-right: 8px;
+  margin: 0 8px 8px 10px;
   background: url('images/circle.svg') 10px/8px no-repeat;
 }
 
@@ -236,7 +245,8 @@ button {
 }
 
 .tab-title-active {
-  width: 80%;
+  width: 75%;
+  padding-bottom: 5px;
   border-bottom: 2px solid #34ACF3;
   margin: 20px auto 0 auto;
   background: url('images/dropdown.svg') right/15px no-repeat;
@@ -322,6 +332,7 @@ button {
 table {
   margin: 5px;
   background-color: #FFF;
+  border-collapse: collapse;
 }
 
 .table-row {
@@ -331,7 +342,7 @@ table {
 
 .table-header {
   height: 50px;
-  padding: 10px;
+  padding: 16px;
   background-color: #6F7E95;
   color: #FFF;
 }
@@ -382,8 +393,7 @@ table {
 }
 
 .share {
-  padding: 10px 5px;
-  margin: 10px;
+  margin: 40px 10px 10px 10px;
 }
 
 .social {
@@ -414,11 +424,11 @@ table {
 .button-widget,
 .upload-resumes {
   height: 25px;
-  padding: 3px 0 0 35px;
+  padding: 4px 0 0 30px;
 }
 
 .share-link {
-  background: url('images/internet-grid.svg') left/25px no-repeat;
+  background: url('images/internet-grid.svg') left/20px no-repeat;
 }
 
 .share-article {
@@ -431,15 +441,21 @@ table {
 }
 
 .button-widget {
-  background: url('images/button-widget.svg') left/25px no-repeat;
+  background: url('images/button-widget.svg') left/20px no-repeat;
 }
 
 .upload-resumes {
-  background: url('images/paper-plane.svg') left/25px no-repeat;
+  background: url('images/paper-plane.svg') left/20px no-repeat;
 }
 
 .copy-container {
   display: flex;
+}
+
+.share-text,
+.widget-text,
+.copy-link {
+  font-size: 0.9em;
 }
 
 .copy-link {
@@ -461,7 +477,7 @@ table {
   text-align: center;
 }
 
-@media screen and (min-width: 560px) {
+@media screen and (min-width: 565px) {
   .tabs {
     display: flex;
     flex-direction: row;
@@ -475,6 +491,7 @@ table {
   .tab-title-active {
     width: auto;
     margin: 5px 0;
+    padding-bottom: 15px;
   }
   
   .tab-phase2,
@@ -512,12 +529,12 @@ table {
     
   .row-category,
   .table-data {
-    padding: 16px;
+    padding: 28px 16px;
     text-align: left;
   }  
   
   .hiring-lead-category {
-    padding-top: 18px;
+    padding-top: 40px;
   }
   
   .hiring {
@@ -537,7 +554,6 @@ table {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 100%;
   }
   
   .social {
@@ -563,34 +579,31 @@ table {
     min-width: 190px;
   }
   
-  .tabs {
-    /*display: flex;*/
-    max-width: 820px;
-    /*flex-direction: row;
+  .search-bar {
+    max-width: 80px;
+    height: 70px;
+    padding: 22px;
+  }
+  
+  .search {
+    max-width: none;
+    padding-left: 60px;
+    background-position: 30px;
+  }
+  
+  header {
+    display: flex;
     justify-content: space-between;
-    padding: 10px 10px 0 10px;
-    margin: 0 auto;
+    align-items: center;
+    padding: 0 35px 15px 40px;
   }
   
-  .tab-title,
-  .tab-title-active {
-    width: auto;
-    margin: 5px 0;
+  .title-location {
+    text-align: left;
   }
   
-  .tab-title {
-    display: inline;
-    color: #969AA1;
-  }
-  
-  .tab-title:hover {
-    color: #5D5D61;
-  }
-  
-  .tab-title-active {
-    margin: 5px 0 0 0;
-    background: none;
-  }*/
+  .tabs {
+    max-width: 820px;
   }
   
   .tab-phase3 {
@@ -603,32 +616,22 @@ table {
   }
   
   .table-header {
-    height: 80px;
+    height: 75px;
   }
   
   .table-row {
-    height: 75px;
+    min-height: 75px;
   }
 }  
 
 @media screen and (min-width: 1200px) {
-  header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 30px;
-  }
-  
-  .title-location {
-    text-align: left;
-  }
-  
   .tabs {
-    margin: 0 0 0 30px;  
+    margin: 15px 0 0 30px;  
   }
   
   .charts {
     display: flex;
+    margin-top: 35px;
   }
   
   .pie-charts-container {
@@ -650,38 +653,39 @@ table {
   .content-info {
     display: flex;
     flex-direction: row;
-    padding: 0 30px;
+    padding: 0 45px;
   }
 
   .table {
-    width: 65%;
-    margin: 30px 5px;
+    width: 66.6666%;
+    margin: 25px 5px;
 
   }
 
   .full-share {
-    width: 35%;
+    width: 33.3333%;
+    margin: 5px 0 0 38px;
   }
   
   .social-container {
     flex-direction: column;
-    align-items: center;
   }
   
   .social {
     width: 100%;
-    max-width: 270px;
+    max-width: 280px;
     padding-left: 16px;
     margin: 10px 0;
     background-position: 20px;
   }
   
   .share {
-    max-width: 350px;
+    max-width: 280px;
+    margin: 10px 0 0 0;
   }
   
   .copy-container {
-    max-width: 270px;
+    max-width: 280px;
   }
   
 }
