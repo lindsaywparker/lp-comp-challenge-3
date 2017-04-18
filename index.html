@@ -1,0 +1,183 @@
+<!doctype html>
+<html>
+  <head>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Lindsay's Static Comp 3</title>
+    <link href='normalize.css' type='text/css' rel='stylesheet'></link>
+    <link href='styles.css' type='text/css' rel='stylesheet'></link>
+    <link href='https://fonts.googleapis.com/css?family=Nunito:400,700' rel='stylesheet'>
+  </head>
+  <body>
+    <nav class='sidebar-nav' role='navigation'>
+      <div class='user-profile'>
+        <img src='images/jabrill-peppers.jpg' class='user-picture'/>
+        <p class='profile-dropdown'>Jabrill Peppers</p>
+      </div>
+      <div class='nav-link-main'>
+        <div class='nav-link-section-title'>Main</div>
+        <a href='#' class='nav-link home'>HOME</a>
+        <a href='#' class='nav-link jobs'>JOBS</a>
+        <a href='#' class='nav-link resumes'>RESUME</a>
+        <a href='#' class='nav-link tasks'>TASKS</a>
+        <a href='#' class='nav-link side-calendar'>CALENDAR</a>
+      </div>
+      <div class='nav-link-admin'>
+        <div class='nav-link-section-title'>Admin</div>
+        <div class='nav-link users'>USERS</div>
+        <div class='nav-link locations'>LOCATIONS</div>
+        <div class='nav-link workflows'>WORKFLOWS</div>
+        <div class='nav-link nav-link-active job-boards'>JOB BOARDS</div>
+        <div class='nav-link nav-social'>SOCIAL</div>
+      </div>
+      <div class='nav-categories'>
+        <div class='nav-link-section-title'>Categories</div>
+        <a href='#' class='nav-cat admin'>Administrative</a>
+        <a href='#' class='nav-cat design'>Design</a>
+        <a href='#' class='nav-cat executive'>Executive</a>
+        <a href='#' class='nav-cat hr'>Human Resources</a>
+    </nav>
+    <section class='main-container'>
+      <nav class='top-nav'>
+        <img src='images/mobile-nav.svg' class='search-bar hamburger'/>
+        <input type='search' class='search-bar search' placeholder='Search'/>
+        <img src='images/add-person.svg' class='search-bar add-person'/>
+        <img src='images/calendar.svg' class='search-bar calendar'/>
+        <img src='images/nine-squares.svg' class='search-bar nine-square-menu'/>
+      </nav>
+      <header role='banner'>
+        <section class='title-location'>
+          <h1>Pro-Style Quarterback</h1>
+          <p class='location'>Ann Arbor, MI -</p>
+          <a href='#' class='preview'>Preview this post</a>
+        </section>
+        <div class='mod-btns'>
+          <div class='callout status'>OPEN</div>
+          <button>
+            <img src='images/bookmark.svg' class='bookmark'/>
+          </button>
+          <button>
+            <img src='images/pencil.svg' class='pencil'/>
+          </button>
+          <button>
+            <img src='images/trash.svg' class='trash'/>
+          </button>
+        </div>
+      </header>
+      <main role='main'>
+        <nav class='tabs'>
+          <h2 class='tab-title-active'>SUMMARY</h2>
+          <h2 class='tab-title tab-phase2'>APPLICANTS</h2>
+          <h2 class='tab-title tab-phase2'>JOB BOARD</h2>
+          <h2 class='tab-title tab-phase2'>INTERVIEW</h2>
+          <h2 class='tab-title tab-phase3'>ACTIVITY</h2>
+          <h2 class='tab-title tab-phase3'>BROADCAST</h2>
+          <h2 class='tab-title tab-phase3'>NOTIFICATIONS</h2>
+          <h2 class='tab-title tab-more'>MORE...</h2>
+        </nav>
+        <div class='tab'>
+          <section class='charts'>
+            <article class='pie-charts-container'>
+              <article class='pies'>
+                <div class='pie pie-applicants'><span class='pie-number'>3,154</span><br>APPLICANTS</br>
+                </div>
+                <div class='pie pie-interviews'><span class='pie-number'>1,546</span><br>INTERVIEWS</br>
+                </div>
+                <div class='pie pie-forwards'><span class='pie-number'>912</span><br>FORWARDS</br>
+                </div>
+              </article>
+              <div class='callout pie-chart-title'>TOTALS - Out of 5,231 views</div>
+            </article>
+            <article class='bar-chart-container'>
+              <img src='images/bar-chart.png' class='bar-chart'/>
+              <div class='callout bar-chart-title'>APPLICANTS/DAY</div>
+            </article>
+          </section>
+          <div class='arrow-up'>
+            <div class='hor-line'></div>
+            <img src='images/up-arrow-circle.svg' class='arrow'/>
+            <div class='hor-line'></div>
+          </div>
+          <div class='content-info'>
+            <table class='table'>
+              <th colspan='2' class='table-header'>JOB DESCRIPTION
+                <div class='job-desc-edit-btn'>EDIT</div>
+              </th>
+              <tr class='table-row'>
+                <td class='row-category'>POSITION TITLE</td>
+                <td class='table-data'>Pro-Style Quarterback</td>
+              </tr>
+              <tr class='table-row'>
+                <td class='row-category'>LOCATION</td>
+                <td class='table-data'>Ann Arbor, MI</td>
+              </tr>
+              <tr class='table-row'>
+                <td class='row-category'>EMPLOYMENT TYPE</td>
+                <td class='table-data'>Full-time</td>
+              </tr>
+              <tr class='table-row'>
+                <td class='row-category'>EXPERIENCE</td>
+                <td class='table-data'>Mid-level</td>
+              </tr>
+              <tr class='table-row'>
+                <td class='row-category'>STATUS</td>
+                <td class='table-data'>Open</td>
+              </tr>
+              <tr class='table-row'>
+                <td class='row-category'>DESCRIPTION</td>
+                <td class='table-data'>The Customer Service Representative is responsible for 
+                interacting with and providing quality assistance to all radical 
+                customers, responsible for keeping up-to-date on the various 
+                product shizzle; helping the bidness reduce customer service wait 
+                times while doing a backhand spring and eating a ham sandwich.</td>
+              </tr>
+              <tr class='table-row'>
+                <td class='row-category hiring-lead-category'>HIRING LEAD</td>
+                <td class='table-data hiring'>
+                  <div class='picture'></div>
+                  <p class='hiring-lead'>Jim Harbaugh</p>
+                </td>
+              </tr>
+              <tr class='table-row'>
+                <td class='row-category'>APPROVED SALARY</td>
+                <td class='table-data salary'>$58,000</td>
+              </tr>
+            </table>
+            <section class='full-share'>
+              <article class='share social-container'>
+                <div class='social facebook'>Post to Facebook</div>
+                <div class='social twitter'>Tweet this Job</div>
+                <div class='social linkedin'>Post to LinkedIn</div>
+              </article>
+              <article class='share'>
+                <article class='share-article'>
+                  <h3 class='share-link'>Link to this Job</h3>
+                  <p class='share-text'>Lorem ipsum dolor sit amet, consectalur 
+                    adipis cing else.  Integer mollis neque eget vestibpend.</p>
+                  <div class='copy-container'>
+                    <div class='copy-link'>https://developer.mozilla.org/en-US/docs/Web/CSS/overflow-wrap</div>
+                    <div class='copy'>Copy</div>
+                  </div>
+                </article>
+                <article class='share-article share-article-btn-widget'>
+                  <h3 class='button-widget'>Use the Button Widget</h3>
+                  <p class='widget-text'>This widget embeds the buttons for sharing 
+                    the job for submitting a resume on your website.</p>
+                  <div class='copy-container'>
+                    <div class='copy-link'>&ltscript type="text/javascript" script and all the other things></div>
+                    <div class='copy'>Copy</div>
+                  </div>
+                </article>
+                <article class='share-article'>
+                  <h3 class='upload-resumes'>Upload Resumes by Email</h3>
+                  <p class='share-text'>You can automatically upload multiple 
+                    resumes to this job by emailing the address below.</p>
+                  <div class='copy-link email'>tomtizzy@gmail.com</div>
+                </article>
+              </article>
+            </section>
+          </div>
+        </div>
+      </main>
+    </section>
+  </body>
+</html>
