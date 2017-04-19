@@ -12,8 +12,8 @@ The card images are from a Google search of "Famous Paintings."  The color schem
 
 
 ## Images
-Original Comp
+### Original Comp
 ![alt text](/images/original-comp.jpg 'Original Comp')
 
-Lindsay's Version
+### Lindsay's Version
 ![alt text](/images/lindsays.png 'Lindsay\'s')
