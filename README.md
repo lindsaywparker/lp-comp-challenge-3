@@ -16,4 +16,4 @@ Original Comp
 ![alt text](/images/original-comp.jpg 'Original Comp')
 
 Lindsay's Version
-![alt text](/images/lindsays.jpg 'Lindsay\'s')
+![alt text](/images/lindsays.png 'Lindsay\'s')
