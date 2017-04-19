@@ -32,6 +32,7 @@ h2 {
 button {
   width: 36px;
   height: 36px;
+  padding-top: 4px;
   border: 1px solid #E3E3E5;
   border-radius: 18px;
   margin: 10px 8px;
@@ -163,6 +164,10 @@ button {
   background: url('images/square-green.svg') 20px/15px no-repeat;
 }
 
+.main-container {
+  width: 100%;
+}
+
 .top-nav {
   display: flex;
   flex-direction: row;
@@ -180,12 +185,35 @@ button {
   border-right: 1px solid #F4F4F6;
   border-bottom: 1px solid #F4F4F6;
 }
+
+.search-bar:hover {
+  background-color: #16A4FA;
+}  
   
 .search {
   max-width: none;
   padding-left: 35px;
   background: url('images/search.svg') 8px/20px no-repeat;
   font-size: 1em;
+}
+.search:hover {
+  background-color: inherit;
+}
+
+.hamburger:hover {
+  content: url('images/mobile-nav-hover.svg');
+}
+
+.add-person:hover {
+  content: url('images/add-person-hover.svg');
+}
+
+.calendar:hover {
+  content: url('images/calendar-hover.svg');
+}
+
+.nine-square-menu:hover {
+  content: url('images/nine-squares-hover.svg');
 }
 
 .title-location {
@@ -238,6 +266,18 @@ button {
 .pencil,
 .trash {
   height: 20px;
+}
+
+.bookmark:hover {
+  content: url('images/bookmark-hover.svg');
+}
+
+.pencil:hover {
+  content: url('images/pencil-hover.svg');
+}
+
+.trash:hover {
+  content: url('images/trash-hover.svg');
 }
 
 .tab-title {
@@ -315,22 +355,29 @@ button {
   flex-direction: row;
   justify-content: center;
   padding: 10px;
+  margin: 30px 0;
 }
 
 .arrow {
   height: 30px;
-  margin: 5px;
+  position: relative;
+  top: -5px;
+  left: 0;
 }
 
-/*.hor-line {
-  width: 100%;
-  height: 30px;
-  background: url('images/horizontal-line.svg') center/10px no-repeat;
-  background-size: contain;
-}*/
+.arrow:hover {
+  content: url('images/up-arrow-circle-hover.svg');
+}
+
+.hor-line {
+  width: 50%;
+  background: #A8B4C9;
+  height: 1px;
+  margin: 10px;
+}
 
 table {
-  margin: 5px;
+  margin: 10px;
   background-color: #FFF;
   border-collapse: collapse;
 }
@@ -352,9 +399,13 @@ table {
   width: 80px;
   height: 30px;
   padding-left: 20px;
-  padding-top: 8px;
+  padding-top: 7px;
   margin-left: 30px;
   background: url('images/pencil-white.svg') #7C8AA5 8px/15px no-repeat;
+}
+
+.job-desc-edit-btn:hover {
+  background-color: #4D5868;
 }
 
 .row-category {
@@ -410,14 +461,26 @@ table {
   background-color: #4A6EC2;
 }
 
+.facebook:hover {
+  background-color: #334D87;
+}
+
 .twitter {
   background: url('images/twitter-logo.svg') 20px/20px no-repeat;
   background-color: #00A8EF;
 }
 
+.twitter:hover {
+  background-color: #0075A7;
+}
+
 .linkedin {
   background: url('images/linkedin-logo.svg') 20px/20px no-repeat;
   background-color: #0480BC;
+}
+
+.linkedin:hover {
+  background-color: #025983;
 }
 
 .share-link,
@@ -475,6 +538,10 @@ table {
   background-color: #44B1B9;
   color: #FFF;
   text-align: center;
+}
+
+.copy:hover {
+  background-color: #2F7B81;
 }
 
 @media screen and (min-width: 565px) {
@@ -629,6 +696,14 @@ table {
     margin: 15px 0 0 30px;  
   }
   
+  .charts,
+  .arrow-up,
+  .content-info {
+    max-width: 1110px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
   .charts {
     display: flex;
     margin-top: 35px;
@@ -648,6 +723,10 @@ table {
   
   .callout {
     order: 1;
+  }
+
+  .arrow-up {
+    padding: 0 45px;
   }
 
   .content-info {
@@ -671,21 +750,55 @@ table {
     flex-direction: column;
   }
   
+  .social,
+  .share,
+  .copy-container {
+    max-width: 280px;
+  }
+  
   .social {
     width: 100%;
-    max-width: 280px;
     padding-left: 16px;
     margin: 10px 0;
     background-position: 20px;
   }
   
   .share {
-    max-width: 280px;
     margin: 10px 0 0 0;
   }
-  
-  .copy-container {
-    max-width: 280px;
+}
+
+@media screen and (min-width: 1655px) {
+  .charts,
+  .arrow-up,
+  .content-info  {
+    max-width: 1500px;
+    margin: 35px auto 0 auto;
+  }
+
+
+  .pie-charts-container,
+  .bar-chart-container {
+    margin: 0 50px;
   }
   
+  .pie {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin: 10px 20px;
+    padding-top: 60px;
+  }
+
+  .full-share {
+    width: auto;
+    margin: 5px 0 0 auto;
+  }
+
+  .social,
+  .share,
+  .copy-container {
+    max-width: 380px;
+  }
+
 }
