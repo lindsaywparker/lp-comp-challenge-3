@@ -1,11 +1,3 @@
-/* COLORS:
-primary font -   #5D5D61
-secondary font - #999EA6
-icons, etc -     #91959D
-borders -        #E3E3E5
-*/
-
-
 * {
   box-sizing: border-box;
 }
@@ -65,9 +57,9 @@ button {
   width: 58%;
   padding-right: 12px;
   margin: 18px auto 26px auto;
+  background: url('images/down-arrow.svg') right/10px no-repeat;
   color: #A0ACC1;
   text-decoration: none;
-  background: url('images/down-arrow.svg') right/10px no-repeat;
 }
 
 .profile-dropdown:hover {
@@ -82,9 +74,9 @@ button {
 .nav-link-admin .nav-link,
 .nav-categories a {
   display: block;
-  text-decoration: none;
-  color: #A0ACC1;
   padding: 12px 0 12px 55px;
+  color: #A0ACC1;
+  text-decoration: none;
 }
 
 .nav-link-main a:hover,
@@ -92,7 +84,7 @@ button {
 .nav-categories a:hover {
   color: #FFF;
 }
-    
+
 .nav-link-main,
 .nav-link-admin,
 .nav-categories {
@@ -103,7 +95,6 @@ button {
 .nav-link-admin {
   border-bottom: 2px solid #282F41;
 }
-
 
 .home {
   background: url('images/home.svg') 20px/20px no-repeat;
@@ -138,10 +129,10 @@ button {
 }
 
 .job-boards {
+  border-left: 2px solid #34ACF3;
   background: url('images/job-boards.svg') 20px/20px no-repeat;
   background-color: #2A3242;
   color: #FFF;
-  border-left: 2px solid #34ACF3;
 }
 
 .nav-social {
@@ -196,6 +187,7 @@ button {
   background: url('images/search.svg') 8px/20px no-repeat;
   font-size: 1em;
 }
+
 .search:hover {
   background-color: inherit;
 }
@@ -293,8 +285,8 @@ button {
 }
 
 .tab {
-  background-color: #EDF2F6;
   border-top: 1px solid #E3E3E5;
+  background-color: #EDF2F6;
 }
 
 .pie-charts-container {
@@ -314,9 +306,9 @@ button {
   width: 160px;
   height: 160px;
   padding: 40px 0;
-  margin: 10px;
   border: 10px solid;
   border-radius: 80px;
+  margin: 10px;
   text-align: center;
 }
 
@@ -359,10 +351,10 @@ button {
 }
 
 .arrow {
-  height: 30px;
   position: relative;
   top: -5px;
   left: 0;
+  height: 30px;
 }
 
 .arrow:hover {
@@ -371,15 +363,15 @@ button {
 
 .hor-line {
   width: 50%;
-  background: #A8B4C9;
   height: 1px;
   margin: 10px;
+  background: #A8B4C9;
 }
 
 table {
+  border-collapse: collapse;
   margin: 10px;
   background-color: #FFF;
-  border-collapse: collapse;
 }
 
 .table-row {
@@ -398,8 +390,8 @@ table {
   display: inline-block;
   width: 80px;
   height: 30px;
-  padding-left: 20px;
   padding-top: 7px;
+  padding-left: 20px;
   margin-left: 30px;
   background: url('images/pencil-white.svg') #7C8AA5 8px/15px no-repeat;
 }
@@ -416,8 +408,8 @@ table {
 
 .table-data {
   padding: 3px 5px 10px 5px;
-  text-align: center;
   border-bottom: 1px solid #E3E3E5;
+  text-align: center;
 }
 
 .hiring {
@@ -544,6 +536,8 @@ table {
   background-color: #2F7B81;
 }
 
+/* MEDIA QUERIES */
+
 @media screen and (min-width: 565px) {
   .tabs {
     display: flex;
@@ -557,8 +551,8 @@ table {
   .tab-title,
   .tab-title-active {
     width: auto;
-    margin: 5px 0;
     padding-bottom: 15px;
+    margin: 5px 0;
   }
   
   .tab-phase2,
@@ -776,7 +770,6 @@ table {
     margin: 35px auto 0 auto;
   }
 
-
   .pie-charts-container,
   .bar-chart-container {
     margin: 0 50px;
@@ -785,9 +778,9 @@ table {
   .pie {
     width: 200px;
     height: 200px;
+    padding-top: 60px;
     border-radius: 100px;
     margin: 10px 20px;
-    padding-top: 60px;
   }
 
   .full-share {
@@ -800,5 +793,4 @@ table {
   .copy-container {
     max-width: 380px;
   }
-
 }
