@@ -1,14 +1,10 @@
 # Lindsay's Static Comp 3
 ## Project Overview
-<!-- this is old -->
-This version of Static Comp 2 is built from the mobile size up.  At mobile size, the navigation links are hidden and a three line menu icon ("hamburger") is used.  The specifics of the user login are also hidden so only the icon is displayed.
+This version of Static Comp 3 is built from the mobile size up primarily with `display: flex`.  At mobile size, the sidebar navigation links are hidden, the tab titles are collapsed into a dropdown, and the content is all centered.
 
-The media query at 660px shifts the above-mentioned navigation and user login to their full versions.  This width allowed for two cards to display comfortably side-by-side.  From 660px on, the cards are given hard min-width and max-width properties to eliminate excessive distortion on larger screens.
+The media query at 565px expands the tab titles into a partial version with 'More...' displayed.
 
-Layout was primarily achieved using `display: flex`, resulting in the need for 'dummy' divs to allow for left-aligned orphans.
-
-The card images are from a Google search of "Famous Paintings."  The color scheme is from Adobe Color, specifically the [Orange Gray Website color theme](https://color.adobe.com/Orange-Gray-Website-color-theme-8432429/edit/?copy=true "Orange Gray Website color theme on Adobe Color").  Icons are from [Flaticon](http://www.flaticon.com/ "Flaticon").
-<!-- this is old -->
+At 950px, the full sidebar menu is displayed, the top search bar becomes its full height, and all tab names are displayed.  The main content is still displayed in a column until the window width can support the charts side-by-side at 1200px.
 
 
 ## Images

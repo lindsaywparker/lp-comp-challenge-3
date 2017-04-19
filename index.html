@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <title>Lindsay's Static Comp 3</title>
@@ -9,40 +9,41 @@
   </head>
   <body>
     <nav class='sidebar-nav' role='navigation'>
-      <div class='user-profile'>
-        <img src='images/jabrill-peppers.jpg' class='user-picture'/>
+      <section class='user-profile'>
+        <img src='images/jabrill-peppers.jpg' alt='User profile picture' class='user-picture'/>
         <p class='profile-dropdown'>Jabrill Peppers</p>
-      </div>
-      <div class='nav-link-main'>
+      </section>
+      <section class='nav-link-main'>
         <div class='nav-link-section-title'>Main</div>
         <a href='#' class='nav-link home'>HOME</a>
         <a href='#' class='nav-link jobs'>JOBS</a>
-        <a href='#' class='nav-link resumes'>RESUME</a>
+        <a href='#' class='nav-link resumes'>RESUM&Eacute</a>
         <a href='#' class='nav-link tasks'>TASKS</a>
         <a href='#' class='nav-link side-calendar'>CALENDAR</a>
-      </div>
-      <div class='nav-link-admin'>
+      </section>
+      <section class='nav-link-admin'>
         <div class='nav-link-section-title'>Admin</div>
         <div class='nav-link users'>USERS</div>
         <div class='nav-link locations'>LOCATIONS</div>
         <div class='nav-link workflows'>WORKFLOWS</div>
         <div class='nav-link nav-link-active job-boards'>JOB BOARDS</div>
         <div class='nav-link nav-social'>SOCIAL</div>
-      </div>
-      <div class='nav-categories'>
+      </section>
+      <section class='nav-categories'>
         <div class='nav-link-section-title'>Categories</div>
         <a href='#' class='nav-cat admin'>Administrative</a>
         <a href='#' class='nav-cat design'>Design</a>
         <a href='#' class='nav-cat executive'>Executive</a>
         <a href='#' class='nav-cat hr'>Human Resources</a>
+      </section>
     </nav>
     <section class='main-container'>
-      <nav class='top-nav'>
-        <img src='images/mobile-nav.svg' class='search-bar hamburger'/>
+      <nav class='top-nav' role='navigation'>
+        <img src='images/mobile-nav.svg' alt='Click to open sidebar navigation' class='search-bar hamburger'/>
         <input type='search' class='search-bar search' placeholder='Search'/>
-        <img src='images/add-person.svg' class='search-bar add-person'/>
-        <img src='images/calendar.svg' class='search-bar calendar'/>
-        <img src='images/nine-squares.svg' class='search-bar nine-square-menu'/>
+        <img src='images/add-person.svg' alt='Click to add collaborator' class='search-bar add-person'/>
+        <img src='images/calendar.svg' alt='Click to view team calendar' class='search-bar calendar'/>
+        <img src='images/nine-squares.svg' alt='Click to open full Human Resources suite navigation menu' class='search-bar nine-square-menu'/>
       </nav>
       <header role='banner'>
         <section class='title-location'>
@@ -52,19 +53,13 @@
         </section>
         <div class='mod-btns'>
           <div class='callout status'>OPEN</div>
-          <button>
-            <img src='images/bookmark.svg' class='bookmark'/>
-          </button>
-          <button>
-            <img src='images/pencil.svg' class='pencil'/>
-          </button>
-          <button>
-            <img src='images/trash.svg' class='trash'/>
-          </button>
+          <button><img src='images/bookmark.svg' alt='Click to bookmark this posting' class='bookmark'/></button>
+          <button><img src='images/pencil.svg' alt='Click to edit this posting' class='pencil'/></button>
+          <button><img src='images/trash.svg' alt='Click to delete this posting' class='trash'/></button>
         </div>
       </header>
       <main role='main'>
-        <nav class='tabs'>
+        <nav class='tabs' role='navigation'>
           <h2 class='tab-title-active'>SUMMARY</h2>
           <h2 class='tab-title tab-phase2'>APPLICANTS</h2>
           <h2 class='tab-title tab-phase2'>JOB BOARD</h2>
@@ -76,28 +71,25 @@
         </nav>
         <div class='tab'>
           <section class='charts'>
-            <article class='pie-charts-container'>
+            <div class='pie-charts-container'>
               <article class='pies'>
-                <div class='pie pie-applicants'><span class='pie-number'>3,154</span><br>APPLICANTS</br>
-                </div>
-                <div class='pie pie-interviews'><span class='pie-number'>1,546</span><br>INTERVIEWS</br>
-                </div>
-                <div class='pie pie-forwards'><span class='pie-number'>912</span><br>FORWARDS</br>
-                </div>
+                <div class='pie pie-applicants'><span class='pie-number'>3,154</span><br>APPLICANTS</br></div>
+                <div class='pie pie-interviews'><span class='pie-number'>1,546</span><br>INTERVIEWS</br></div>
+                <div class='pie pie-forwards'><span class='pie-number'>912</span><br>FORWARDS</br></div>
               </article>
               <div class='callout pie-chart-title'>TOTALS - Out of 5,231 views</div>
-            </article>
-            <article class='bar-chart-container'>
-              <img src='images/bar-chart.png' class='bar-chart'/>
+            </div>
+            <div class='bar-chart-container'>
+              <img src='images/bar-chart.png' alt='Bar chart showing number of applicants by day' class='bar-chart'/>
               <div class='callout bar-chart-title'>APPLICANTS/DAY</div>
-            </article>
+            </div>
           </section>
           <div class='arrow-up'>
             <div class='hor-line'></div>
-              <img src='images/up-arrow-circle.svg' class='arrow'/>
+            <img src='images/up-arrow-circle.svg' alt='Click to collapse charts' class='arrow'/>
             <div class='hor-line'></div>
           </div>
-          <div class='content-info'>
+          <section class='content-info'>
             <table class='table'>
               <th colspan='2' class='table-header'>JOB DESCRIPTION
                 <div class='job-desc-edit-btn'>EDIT</div>
@@ -142,13 +134,13 @@
                 <td class='table-data salary'>$58,000</td>
               </tr>
             </table>
-            <section class='full-share'>
-              <article class='share social-container'>
-                <div class='social facebook'>Post to Facebook</div>
-                <div class='social twitter'>Tweet this Job</div>
-                <div class='social linkedin'>Post to LinkedIn</div>
-              </article>
-              <article class='share'>
+            <div class='full-share'>
+              <div class='share social-container'>
+                <a class='social facebook'>Post to Facebook</a>
+                <a class='social twitter'>Tweet this Job</a>
+                <a class='social linkedin'>Post to LinkedIn</a>
+              </div>
+              <div class='share'>
                 <article class='share-article'>
                   <h3 class='share-link'>Link to this Job</h3>
                   <p class='share-text'>Lorem ipsum dolor sit amet, consectalur 
@@ -173,9 +165,9 @@
                     resumes to this job by emailing the address below.</p>
                   <div class='copy-link email'>tomtizzy@gmail.com</div>
                 </article>
-              </article>
-            </section>
-          </div>
+              </div>
+            </div>
+          </section>
         </div>
       </main>
     </section>
